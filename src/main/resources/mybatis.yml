@@ -1,0 +1,5 @@
+mybatis:
+    rootPackage: com.gening.library.gemapper
+    poPackageKeyword: model
+    daoPackageKeyword: dao
+    transactionAopPointcutExpression: "execution(* com.piesat.library.gemapper.web.service.*..*(..))"
